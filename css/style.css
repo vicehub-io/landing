@@ -294,9 +294,9 @@ header.smaller.scroll-light {
     background: #ffffff;
 }
 
-header.smaller.scroll-dark {
+/* header.smaller.scroll-dark {
     background: #161D30;
-}
+} */
 
 header.header-light .h-phone,
 header.smaller.scroll-light .h-phone {
@@ -563,6 +563,17 @@ header .header-col.mid .social-icons {
 
 #profile_banner {
     min-height: 360px;
+}
+
+/* Custom Header Styles */
+
+header .btn-wallet {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+header .btn-icon .btn-icon-text {
+    margin-left: 5px;
 }
 
 /* ================================================== */
@@ -1438,7 +1449,6 @@ header.header-light {
 }
 
 header.smaller.header-dark {
-    background: #222222;
     border: none;
 }
 
