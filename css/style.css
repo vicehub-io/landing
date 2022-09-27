@@ -294,6 +294,12 @@ header.smaller.scroll-light {
     background: #ffffff;
 }
 
+header.header-custom {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
 /* header.smaller.scroll-dark {
     background: #161D30;
 } */
@@ -325,6 +331,10 @@ header.smaller.scroll-light .social-icons i {
 
 header.smaller.scroll-light #mainmenu li li a:hover {
     color: #ffffff;
+}
+
+header.header-custom .standard-height {
+    height: 100%;
 }
 
 .wide header{
