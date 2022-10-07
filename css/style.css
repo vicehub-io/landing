@@ -1741,6 +1741,23 @@ header.header-light .logo-2 {
 /* ================================================== */
 
 
+/* hero */
+
+
+/* ================================================== */
+
+.md-landing-hero-carousel {
+    width: 500px;
+}
+
+.md-landing-hero-carousel .owl-item {
+    /* height: 250px;
+    border: 1px solid red; */
+}
+
+/* ================================================== */
+
+
 /* blog */
 
 
