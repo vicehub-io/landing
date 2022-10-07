@@ -1746,13 +1746,11 @@ header.header-light .logo-2 {
 
 /* ================================================== */
 
-.md-landing-hero-carousel {
-    max-width: 500px;
-}
-
-.md-landing-hero-carousel .owl-item {
-    /* height: 250px;
-    border: 1px solid red; */
+@media (min-width: 768px) {
+    .md-landing-hero-carousel {
+        max-width: 500px;
+        width: 100%;
+    }
 }
 
 /* ================================================== */
