@@ -255,6 +255,26 @@
                 }
             }
          });
+         jQuery("#items-carousel-with-1").owlCarousel({
+            center: false,
+            items:1,
+            rewind:true,
+            margin:25,
+            nav:true,
+            navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+            dots:false,
+            responsive:{
+                1000:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                0:{
+                    items:1
+                }
+            }
+         });
 
          jQuery("#items-carousel1").owlCarousel({
             center: false,
