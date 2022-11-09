@@ -257,7 +257,7 @@
          });
          jQuery("#items-carousel-with-1").owlCarousel({
             center: false,
-            items:4,
+            items:1,
             rewind:true,
             margin:25,
             nav:true,

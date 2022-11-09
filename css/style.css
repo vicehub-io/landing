@@ -17404,7 +17404,11 @@ img {
     margin-right: 9px !important;
 }
 
-#items-carousel-with-1 {
-    margin-top: 50px;
-    margin-right: 75px;
+
+@media screen and (min-width: 992px) {
+    #items-carousel-with-1 {
+        margin-top: 50px;
+        margin-right: 75px;
+    }
+
 }
