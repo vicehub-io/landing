@@ -17337,6 +17337,7 @@ img {
     }
     footer {
         padding-top: 40px;
+        margin-block: 0.5rem;
     }
 }
 
