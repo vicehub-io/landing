@@ -17560,6 +17560,7 @@ body {
     background-color: var(--color);
     padding: 0.5rem 2rem;
     font-weight: bold;
+    border: none;
 }
 .send-btn:active {
     background-color: #292F47;
@@ -17602,3 +17603,17 @@ body {
         margin-top: 6.25rem;
     }
 }
+
+.error-msg {
+    background: #ff0000;
+    padding-block: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+.success-msg {
+    background: #009900;
+    padding-block: 2rem;
+    color: white;
+    text-align: center;
+  }
