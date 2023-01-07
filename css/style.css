@@ -14175,6 +14175,9 @@ img.nft__item_preview{
     top: -6px;
     right: 0;
     text-align: center;
+
+    /* REMOVE ONCE OPTIONS ARE ENABLED */
+    display: none;
 }
 
 .rtl .nft__item_click {
