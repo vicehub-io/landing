@@ -17508,6 +17508,16 @@ body {
 .card-employee a {
     font-size: 1.5rem;
 }
+@media screen and (max-width: 1400px) {
+    .team-section .d-grid {
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .team-section .d-grid {
+        gap: 1rem;
+    }
+}
 @media screen and (max-width: 992px) {
     .card-employee {
         padding: 1.5rem;
@@ -17520,7 +17530,7 @@ body {
     -webkit-transform: translateX(calc(50% + 1.5rem));
         -ms-transform: translateX(calc(50% + 1.5rem));
             transform: translateX(calc(50% + 1.5rem));
-}
+    }
 }
 @media screen and (max-width: 576px) {
     .team-section .d-grid {
