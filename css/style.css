@@ -17375,6 +17375,18 @@ img {
         width: 210px;
         margin: 0 auto;
     }
+    footer {
+        padding-top: 15px;
+    }
+    .cat-footer {
+        margin-bottom: -1rem;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .contact-section label {
+        min-height: 51px;
+    }
 }
 
 @media screen and (min-width: 567px) {
@@ -17451,7 +17463,7 @@ body {
     padding-block: 5.5rem;
 }
 .team-section .d-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 3rem;
     margin-bottom: 3rem;
 }
@@ -17470,11 +17482,6 @@ body {
     box-shadow: 6px 6px 0px 0px rgb(0 0 0 / 9%);
     -webkit-box-shadow: 6px 6px 0px 0px rgb(0 0 0 / 9%);
 }
-.card-employee.centered {
-    -webkit-transform: translateX(calc(150% + 4.5rem));
-        -ms-transform: translateX(calc(150% + 4.5rem));
-            transform: translateX(calc(150% + 4.5rem));
-}
 .card-employee img {
     width: 100%;
     aspect-ratio: 1;
@@ -17489,6 +17496,7 @@ body {
     line-height: 30px;
     margin-bottom: 0;
     text-align: center;
+    min-height: 70px;
 }
 .card-position {
     font-family: "Roboto Slab";
@@ -17620,6 +17628,9 @@ body {
     }
     .contact-section h1{
         margin-top: 6.25rem;
+    }
+    .contact-section p.mt-3 {
+        text-align: center;
     }
 }
 
