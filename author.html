@@ -151,20 +151,20 @@
 			<div class="container">
 				<div class="row cat-footer">
 					<div class="col-xl-3">
-						<h5 class="footer-btn">
-							<a href="https://discord.gg/5WgjJXSw">DISCORD</a>
-						</h5>
-					</div>
-					<div class="col-xl-3">
-						<h5 class="footer-btn">
-							<a href="/team.html">TEAM</a>
-						</h5>
-					</div>
-					<div class="col-xl-3">
-						<h5 class="footer-btn">
-							<a href="#">TWITTER</a>
-						</h5>
-					</div>
+                        <h5 class="footer-btn">
+                            <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/Uh7Uw2PeZU">DISCORD</a>
+                        </h5>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5 class="footer-btn">
+                            <a href="/team">TEAM</a>
+                        </h5>
+                    </div>
+                    <div class="col-xl-3">
+                        <h5 class="footer-btn">
+                            <a href="https://twitter.com/vicehub_io" target="_blank">TWITTER</a>
+                        </h5>
+                    </div>
 				</div>
 			</div>
 			<div class="subfooter">
@@ -986,7 +986,37 @@
     
     <!-- Javascript Files
     ================================================== -->
-    
+    <script>
+        const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
+        var elem = document.getElementById("right");
+        document.addEventListener("scroll", () => { 
+            if (window.innerWidth >= 768) {
+                var scrollValue = window.scrollY;
+                var diff = 0;
+                if (window.innerWidth >= 768) {
+                    if (scrollValue >= 2000) {
+                        diff = scrollValue - 2000;
+                    }
+                }
+                if (window.innerWidth >= 992) {
+                    if (scrollValue >= 1950) {
+                        diff = scrollValue - 1950;
+                    }
+                }
+                if (window.innerWidth >= 1200) {
+                    if (scrollValue >= 1600) {
+                        diff = scrollValue - 1600;
+                    }
+                }
+                if (window.innerWidth >= 1400) {
+                    if (scrollValue >= 1550) {
+                        diff = scrollValue - 1550;
+                    }
+                }
+                elem.style.top = "calc(50% - " + diff + "px)";   
+            }
+        });
+    </script>
     <script>
         setInterval(function(){
             var cont = 0;

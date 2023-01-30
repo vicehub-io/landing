@@ -17602,6 +17602,31 @@ body {
 .send-btn:active {
     background-color: #292F47;
 }
+.send-btn:hover {
+    color: white;
+}
+.send-btn.index {
+    float: right;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1400px)  {
+    .send-btn.index {
+        margin-right: 155px;
+    }
+}
+@media only screen and (max-width: 1200px)  {
+    .send-btn.index {
+        margin-right: 12.7vw;
+    }
+}
+@media only screen and (max-width: 992px)  {
+    .send-btn.index {
+        margin-top: -150px;
+        margin-right: 10px;
+    }
+}
+
 @media only screen and (min-width: 768px)  {
     #right {
         position: fixed;
@@ -17631,6 +17656,10 @@ body {
     .percentage-info {
         display: none;
     }
+    .send-btn.index {
+        margin-top: 20px;
+        margin-right: 140px;
+    }
 }
 @media only screen and (max-width: 567px)  {
     .progress {
@@ -17641,6 +17670,15 @@ body {
     }
     .contact-section p.mt-3 {
         text-align: center;
+    }
+    .send-btn.index {
+        position: absolute;
+        margin: 0;
+        float: unset;
+        left: 50%;
+        -webkit-transform: translate(-50%, 50%);
+            -ms-transform: translate(-50%, 50%);
+                transform: translate(-50%, 50%);
     }
 }
 
