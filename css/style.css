@@ -17695,3 +17695,12 @@ body {
     color: white;
     text-align: center;
   }
+
+@media screen and (max-width: 394px) {
+    .index-hero.pb60 {
+        padding-bottom: 120px;
+    }
+    .index-hero .send-btn {
+        width: 200px;
+    }
+}
