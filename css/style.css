@@ -17517,6 +17517,9 @@ body {
     .team-section .d-grid {
         gap: 1rem;
     }
+    .card-position {
+        min-height: 38px;
+    }
 }
 @media screen and (max-width: 992px) {
     .card-employee {
@@ -17530,6 +17533,13 @@ body {
     -webkit-transform: translateX(calc(50% + 1.5rem));
         -ms-transform: translateX(calc(50% + 1.5rem));
             transform: translateX(calc(50% + 1.5rem));
+    }
+    .card-name {
+        min-height: auto;
+        margin-block: 10px;
+    }
+    .card-position {
+        min-height: auto;
     }
 }
 @media screen and (max-width: 576px) {
@@ -17702,5 +17712,14 @@ body {
     }
     .index-hero .send-btn {
         width: 200px;
+    }
+}
+
+.team-section h2.custom-width-1 {
+    width: 80%;
+}
+@media screen and (max-width: 768px) {
+    .team-section h2, .team-section h2.custom-width-1 {
+        width: 70%;
     }
 }
